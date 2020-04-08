@@ -17,13 +17,13 @@ package com.rivetlogic.quartz.command;
 
 import com.rivetlogic.quartz.constants.ScheduledJobManagerPortletKeys;
 import com.rivetlogic.quartz.util.QuartzSchedulerUtil;
+import com.liferay.petra.string.StringPool;
 import com.liferay.portal.kernel.log.Log;
 import com.liferay.portal.kernel.log.LogFactoryUtil;
 import com.liferay.portal.kernel.portlet.bridges.mvc.MVCActionCommand;
 import com.liferay.portal.kernel.scheduler.SchedulerException;
 import com.liferay.portal.kernel.servlet.SessionErrors;
 import com.liferay.portal.kernel.util.ParamUtil;
-import com.liferay.portal.kernel.util.StringPool;
 
 import javax.portlet.ActionRequest;
 import javax.portlet.ActionResponse;
